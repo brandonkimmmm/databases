@@ -1,0 +1,34 @@
+1.
+  1) string
+  2) integer
+  3) date
+  4) float
+  5) float
+
+2. A database will be used when a user needs to retrieve, update, and manipulate data, sometimes simultaneously with another user. A text file will be used when the data within the text file is updated and have to exist outside the app running.
+
+3. SQL is a declarative rather than a procedural language.
+
+4. A database table contains columns and rows. The columns label the data being stored and the rows represent individual instances of the things being stored in the database. Each cell represents the value.
+
+5. Table is the entire collection of instances of the data being stored. Rows are the individual instances of the data. Columns label the values being stored. Values are the individual cells of the table.
+
+6. String, integer, float
+
+7.
+  a) Give me the dates and amounts of all the instances from the payments tables
+  b) Give me all the amounts that are above 500 from the payments table
+  c) Give me all the columns from the payments table where the payee is named Mega Foods
+
+8.
+  a)  SELECT email, signup
+      FROM users
+      WHERE name = 'DeAndre Data';
+
+  b)  SELECT userid
+      FROM users
+      WHERE email = 'aleesia.algorithm@uw.edu';
+
+  c)  SELECT *
+      FROM users
+      WHERE userid = 4;
